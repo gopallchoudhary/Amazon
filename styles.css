@@ -30,7 +30,7 @@
 }
 
 .border:hover {
-  border: 2px solid white;
+  border: 2px solid rgb(252, 4, 4);
 }
 
 /* Box 2 */
@@ -166,7 +166,6 @@ span {
   justify-content: space-evenly;
   background-color: #e2e7e6;
   flex-wrap: wrap;
-
 }
 
 .box {
@@ -175,8 +174,6 @@ span {
   background-color: white;
   padding: 20px 0px 15px;
   margin-top: 15px;
-  
-  
 }
 
 .box-img {
@@ -194,11 +191,11 @@ span {
 }
 
 /* Footer */
-footer{
+footer {
   margin: 15px 0px 0px;
 }
 
-.foot-panel1{
+.foot-panel1 {
   background-color: #37475a;
   color: white;
   height: 50px;
@@ -208,13 +205,12 @@ footer{
   font-size: 0.85rem;
 }
 
-.foot-panel2{
+.foot-panel2 {
   background-color: #222f3d;
   color: white;
   display: flex;
   justify-content: space-evenly;
   height: 300px;
-  
 }
 ul a {
   display: block;
@@ -223,11 +219,11 @@ ul a {
   color: #dddddd;
 }
 
-ul{
+ul {
   margin-top: 20px;
 }
 
-.foot-panel3{
+.foot-panel3 {
   background-color: #222f3d;
   color: white;
   border-top: 0.5px solid white;
@@ -235,13 +231,9 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
 }
 
-
-
-.foot-panel4{
+.foot-panel4 {
   background-color: #0f1111;
   height: 80px;
   color: white;
@@ -252,77 +244,65 @@ ul{
   align-items: center; */
 }
 
-.pages{
+.pages {
   padding-top: 25px;
-
 }
 
-.copyright{
+.copyright {
   padding-top: 5px;
 }
-.bars{
+.bars {
   color: white;
   display: none;
 }
 
-
-@media screen and (max-width:479px) {
-  .shop-section{
+@media screen and (max-width: 479px) {
+  .shop-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .box{
+  .box {
     width: 95%;
   }
-  .hero-section{
+  .hero-section {
     background-size: cover;
     height: 150px;
   }
-  .foot-panel2{
+  .foot-panel2 {
     height: 600px;
   }
-  .navbar{
-  
+  .navbar {
     align-items: center;
     justify-content: space-evenly;
-    
   }
-  .nav-search{
+  .nav-search {
     width: 80%;
     height: 52%;
   }
-  .bars{
+  .bars {
     margin: 10px;
     display: block;
   }
-  .ins-bar{
+  .ins-bar {
     display: none;
   }
-  
-  
-
 }
 
-@media (max-width: 800px) and (min-width: 600px){
-  .shop-section{
-    
+@media (max-width: 800px) and (min-width: 600px) {
+  .shop-section {
   }
-  .box{
+  .box {
     flex-grow: 1;
     flex-basis: 50%;
   }
-  
-  
 }
 
-@media (max-width: 950px) and (min-width: 800px){
-  .shop-section{
-    
+@media (max-width: 950px) and (min-width: 800px) {
+  .shop-section {
   }
-  .box{
+  .box {
     flex-grow: 1;
     flex-basis: 30%;
   }
-  
 }
